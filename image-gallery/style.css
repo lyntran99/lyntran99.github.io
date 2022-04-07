@@ -1,0 +1,30 @@
+.menu-item.row a {
+  text-decoration: none;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.menu-item.row {
+  display: flex;
+  list-style: none;
+}
+.menu-item-container {
+  padding-left: 700px;
+}
+.menu-item.row li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.menu-item.row li:hover {
+  background-color: bisque;
+}
+body {
+  margin: 0;
+}
+header {
+  padding: 4px;
+  
+}
+.header-container {
+  background-color: beige;
+}
+
