@@ -1,3 +1,43 @@
-.list {display: flex; margin: 50px;}
-.image {margin: 50px;}
-.prd-name a {text-decoration: none; color: black; text-align: center;}
+.list {
+  display: flex;
+  margin: 70px;
+  justify-content: center;
+}
+.image {
+  margin: 0 20px;
+  border: 1px solid rgb(211, 211, 188);
+}
+.image:hover {
+  box-shadow: 15px 15px 40px rgb(175, 168, 168);
+}
+.prd-name {
+  padding: 10px 0 10px 0;
+  text-align: center;
+  background-color: rgb(226, 226, 192);
+  margin-top: -4px;
+}
+.prd-name a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  background-color: beige;
+  margin: 0;
+}
+.image a img {
+  width: 300px;
+  height: 300px;
+}
+h1 {
+  text-align: center;
+  padding: 30px 0;
+  margin: 0;
+  background-color: rgb(212, 212, 184);
+  color: rgb(138, 138, 95);
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.image-of-product {text-align: center; margin: 50px;}
+.information {max-width: 70%; margin: auto;}

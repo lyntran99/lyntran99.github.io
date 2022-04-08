@@ -27,4 +27,4 @@ header {
 .header-container {
   background-color: beige;
 }
-
+* {box-sizing: border-box;}
