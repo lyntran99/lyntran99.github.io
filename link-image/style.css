@@ -1,11 +1,14 @@
 .list {
   display: flex;
-  margin: 70px;
+  margin: auto;
   justify-content: center;
+  padding: 50px 0;
+  width: 60%;
 }
 .image {
   margin: 0 20px;
   border: 1px solid rgb(211, 211, 188);
+  width: 100%;
 }
 .image:hover {
   box-shadow: 15px 15px 40px rgb(175, 168, 168);
@@ -25,8 +28,8 @@ body {
   margin: 0;
 }
 .image a img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 h1 {
   text-align: center;
@@ -35,9 +38,16 @@ h1 {
   background-color: rgb(212, 212, 184);
   color: rgb(138, 138, 95);
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
 }
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.image-of-product {text-align: center; margin: 50px;}
-.information {max-width: 70%; margin: auto;}
+.image-of-product {
+  text-align: center;
+  margin: 50px;
+}
+.information {
+  max-width: 70%;
+  margin: auto;
+}
