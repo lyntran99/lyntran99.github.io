@@ -57,30 +57,69 @@ content {
   max-width: 100%;
   margin-top: 100px;
 }
-
+content img {
+  border-radius: 10px;
+}
+#welcome p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(122, 90, 35);
+  font-size: 20px;
+  margin: 0;
+  text-align: left;
+  padding-left: 20px;
+}
 .topic {
   max-width: 100%;
 }
-content p {
+content div p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   min-height: 60px;
   font-size: 40px;
   text-align: center;
 }
-.big.pic {
+.big-pic {
   max-width: 100% !important;
   text-align: center;
 }
-.big.pic img {
+.big-pic img {
   max-width: 90%;
 }
 content img {
   max-width: 100%;
 }
+content img:hover {
+  box-shadow: 0px 0px 10px rgb(116, 114, 114);
+}
 .contain-small-pic {
   display: flex;
   max-width: 900px;
-  margin:auto;
+  margin: auto;
   box-sizing: border-box;
 }
-.contain-small-pic div {padding: 5px;}
+.contain-small-pic div {
+  padding: 5px;
+}
+.two,
+.three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+.topic.two div {
+  max-width: 450px;
+  padding: 5px;
+}
+
+.head-and-des p:first-child {
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.head-and-des p:nth-child(2) {
+  margin-top: 0;
+}
+.contain-pic {
+  display: flex;
+  flex-wrap: wrap;
+
