@@ -92,7 +92,7 @@ content img:hover {
 }
 .contain-small-pic {
   display: flex;
-  max-width: 900px;
+  max-width: 90%;
   margin: auto;
   box-sizing: border-box;
 }
