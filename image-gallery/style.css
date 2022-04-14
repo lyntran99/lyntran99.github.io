@@ -3,6 +3,7 @@ body {
   background-image: url(https://th.bing.com/th/id/R.b5141de81203eff73f34caaba1f48594?rik=CQjGLMjNOgxiqg&riu=http%3a%2f%2fi2.hdslb.com%2fbfs%2farchive%2f839639d7bdf4f28ff0da81b81b96d93074eeefc4.jpg&ehk=W0ezpLs%2bNVal0KjFgl%2fX72MMlJvVI7s7Z6H0nmwRAAI%3d&risl=&pid=ImgRaw&r=0);
   background-repeat: repeat-x repeat-y;
   background-size: 20%;
+  background-attachment: fixed;
 }
 #webpage {
   max-width: 1000px;
@@ -20,7 +21,9 @@ header {
 #logo {
   margin: 0 50px;
 }
-#logo:hover a {color: rgb(8, 83, 153);}
+#logo:hover a {
+  color: rgb(8, 83, 153);
+}
 #logo a {
   font-size: 40px !important;
 }
@@ -123,4 +126,37 @@ content img:hover {
 .contain-pic {
   display: flex;
   flex-wrap: wrap;
+}
 
+footer {
+  margin: 100px 0;
+  padding: 30px 0;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgb(235, 217, 186);
+}
+.other-posts {
+  margin: 20px;
+}
+.contain-footer-item {
+  display: flex;
+  justify-content: space-around;
+  max-width: 90%;
+  margin: auto;
+}
+footer a {
+  text-decoration: none;
+  color: rgb(122, 90, 35);
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer p {
+  color: grey;
+  margin-top: 5px;
+}
+.footer-item {
+  max-width: 33, 3%;
+}
