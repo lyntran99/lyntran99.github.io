@@ -35,6 +35,7 @@ body {
   line-height: 60px;
   background-color: rgb(46, 40, 51);
   position: fixed;
+  z-index: 1;
 }
 .contain-menu ul {
   display: flex;
@@ -57,7 +58,9 @@ body {
 }
 .contain-menu li:hover {
   background-color: rgb(65, 52, 78);
+  color: rgb(194, 189, 189);
 }
+
 .user-inform {
   display: flex;
   flex-wrap: wrap;
@@ -66,8 +69,8 @@ body {
   margin-top: -50px;
 }
 .avatar {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
 }
 .avatar img {
   border-radius: 50%;
@@ -77,18 +80,19 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  width: 180px;
+  width: 150px;
   height: 50px;
 }
 .username p {
-  font-size: 35px;
+  font-size: 28px;
 }
 main {
-    margin-top: 40px;
+  margin-top: 40px;
 }
+
 .list h2 {
-    border-bottom: solid 1px white;
-    line-height: 50px;
+  border-bottom: solid 1px white;
+  line-height: 50px;
 }
 .contain-list-item {
   display: flex;
@@ -99,30 +103,46 @@ main {
   display: flex;
   flex-direction: column;
 }
-.list-item img {
-    transition: 0.3s;
-}
-.list-item h1, .list-item p {
-    transition: 0.3s;
-}
-.list-item:hover img {
-  box-shadow: 0 0 10px 5px rgb(124, 96, 131);
-}
-.list-item:hover h1 {
-    color: rgb(155, 151, 151);
-}
-.list-item:hover p {
-    color: rgb(124, 117, 117);
-}
+
 .list-item p {
   color: rgb(158, 152, 152);
 }
-.album {
+.contain-image {
+  position: relative;
+  display: flex;
+}
+.contain-image .overlay {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  font-size: 150%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+.list-item:hover .overlay {
+  opacity: 1;
+}
+.list-item h1, .list-item p {
+  transition: 0.3s ;
+}
+.list-item:hover h1 {
+  color: rgb(170, 165, 165);
+}
+.list-item:hover p {
+  color: rgb(122, 118, 118);
+}
+.contain-image {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
-.album img {
+.contain-image.contain-album img {
   width: 50%;
 }
 .contain-album .list-item {
@@ -145,5 +165,5 @@ footer ul {
   list-style: none;
 }
 footer li:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
