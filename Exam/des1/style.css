@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.back {
+  border: solid rgb(56, 40, 20);
+  border-radius: 50%;
+  width: fit-content;
+  margin: 20px;
+}
+
+.back i {
+  padding: 5px;
+  text-decoration: none;
+  color: rgb(56, 40, 20);
+}
+
+h1 {
+  margin: 40px 0;
+}
+
+.contain-image {
+  max-width: 70%;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.inform {
+  display: flex;
+  justify-content: space-between;
+  max-width: 70%;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+}
