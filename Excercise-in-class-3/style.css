@@ -44,7 +44,10 @@ body {
   height: 100%;
   line-height: 2;
   padding-left: 15px;
-  padding: 0 60px 0 15px;
+}
+
+.menu-lv1-a {
+  width: 230.69px;
 }
 
 .contain-menu-lv2 a {
