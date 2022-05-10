@@ -23,7 +23,7 @@ function factorial(num) {
 function stringToArray(string2) {
   let newArray = string2.split("");
   let revArray = newArray.reverse();
-  return (revString = revArray.join(""));
+  return revString = revArray.join("");
 }
 
 //Bai 4
