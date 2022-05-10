@@ -23,4 +23,8 @@
         return console.log(string3.slice(num) + "...")
     }
 
+    function insertHyphens(string){
+        return console.log(string.replace(/\s/g, "-"))
+    }
+
 
