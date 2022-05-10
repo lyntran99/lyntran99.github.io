@@ -1,17 +1,20 @@
 // Bai 1
 
 function repeat(string1) {
-  return repeatString = string1.repeat(10);
+  let repeatString = "";
+  for (i = 1; i <= 10; i++) {
+    repeatString += string1 + "-";
+  }
+  return repeatString.slice(0, -1);
 }
-
 
 //Bai 2
 
-function factorial(num){
+function factorial(num) {
   var fact = 1;
   for (var i = num; i >= 1; i--) {
     fact = fact * i;
-  };
+  }
   return fact;
 }
 
@@ -24,8 +27,8 @@ function stringToArray(string2) {
 }
 
 //Bai 4
-function numCount(){
-    for(i = 1; i <= 100; i++){
-        document.write(" " + i + " ");
-    }
+function numCount() {
+  for (i = 1; i <= 100; i++) {
+    document.write(" " + i + " ");
+  }
 }
