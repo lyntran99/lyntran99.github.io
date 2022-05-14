@@ -21,7 +21,7 @@ function season() {
 let uList = [
   "Xich Tu",
   "TNT-Lyn",
-  "Sua Chua",
+  "SuaChua$$",
   "HanuerED",
   "Hanuer1999",
   "Sua 0 duong",
