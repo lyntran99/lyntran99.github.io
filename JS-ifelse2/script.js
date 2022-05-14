@@ -6,13 +6,13 @@ let month = a.getMonth() + 1;
 let year = a.getFullYear();
 function season() {
   if (month >= 2 && month <= 4) {
-    return document.write(month + "/" + date + "/" + year + ", "+ "Spring");
+    return document.write(month + "/" + date + "/" + year + ", " + "Spring");
   } else if (month >= 5 && month <= 7) {
-    return document.write(month + "/" + date + "/" + year + ", "+ "Summer");
+    return document.write(month + "/" + date + "/" + year + ", " + "Summer");
   } else if (month >= 8 && month <= 10) {
-    return document.write(month + "/" + date + "/" + year + ", "+ "Autumn");
+    return document.write(month + "/" + date + "/" + year + ", " + "Autumn");
   } else if (month == 1 || month == 11 || month == 12) {
-    return document.write(month + "/" + date + "/" + year + ", "+ "Winter");
+    return document.write(month + "/" + date + "/" + year + ", " + "Winter");
   }
 }
 
@@ -37,11 +37,13 @@ function nList() {
 //Bai 3
 
 function pickEven(numArray) {
+  let newArray = [];
   for (i = 1; i <= numArray.length; i++) {
     if (numArray[i] % 2 == 0) {
-      console.log(numArray[i]);
+      newArray.push(numArray[i]);
     }
   }
+  return newArray;
 }
 
 //Bai 4
