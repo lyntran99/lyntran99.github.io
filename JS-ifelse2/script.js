@@ -1,19 +1,18 @@
 //Bai 1
 
 let a = new Date();
-console.log(
-  a.getMonth().toString() + "/" + a.getDate() + "/" + a.getFullYear()
-);
-
+let date = a.getDate();
+let month = a.getMonth() + 1;
+let year = a.getFullYear();
 function season() {
-  if (a.getMonth() >= 10) {
-    return "Winter";
-  } else if (a.getMonth() >= 7) {
-    return "Autumn";
-  } else if (a.getMonth() >= 4) {
-    return "Summer";
-  } else {
-    return "Spring";
+  if (month >= 2 && month <= 4) {
+    return document.write(month + "/" + date + "/" + year + ", "+ "Spring");
+  } else if (month >= 5 && month <= 7) {
+    return document.write(month + "/" + date + "/" + year + ", "+ "Summer");
+  } else if (month >= 8 && month <= 10) {
+    return document.write(month + "/" + date + "/" + year + ", "+ "Autumn");
+  } else if (month == 1 && month == 11 && month == 12) {
+    return document.write(month + "/" + date + "/" + year + ", "+ "Winter");
   }
 }
 
