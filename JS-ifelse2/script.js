@@ -11,7 +11,7 @@ function season() {
     return document.write(month + "/" + date + "/" + year + ", "+ "Summer");
   } else if (month >= 8 && month <= 10) {
     return document.write(month + "/" + date + "/" + year + ", "+ "Autumn");
-  } else if (month == 1 && month == 11 && month == 12) {
+  } else if (month == 1 || month == 11 || month == 12) {
     return document.write(month + "/" + date + "/" + year + ", "+ "Winter");
   }
 }
